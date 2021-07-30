@@ -1,0 +1,93 @@
+#main {
+  background-color: #f7f3f2;
+}
+#title{
+  text-align: center;
+  font-family: Satisfy, Dancing Script, monospace;
+  padding: 12px;
+  margin: auto;
+  padding-bottom: 5px;
+  font-size: 50px;
+  background: linear-gradient(45deg,#bce004, #04cae0);
+  color: #e01304;
+}
+h4{
+  color: black;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom; 20px;
+  font-family: Kaushan Script, monospace;
+}
+#img-caption {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#img-div{
+  text-align: center;
+  background: linear-gradient(45deg,#bce004, #04cae0);
+  margin-bottom: -10px;
+  padding-bottom: 30px;
+
+  
+  
+}
+
+#tribute-info{
+  margin-top: 0px;
+   padding-top: 10px;
+  background-color: #aeb7b8;
+  text-align: start;
+}
+
+#tit1{
+  text-align: center;
+  color: #e01304
+}
+#link-description{
+  font: 27px bold;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 15px;
+}
+
+  
+
+@media (max-width: 450px) {
+  #h1 {
+  font-size: 20px;
+  }
+  #h4 {
+    font-size: 5px;
+  }
+}
+#h4{
+  animation-name: Hanim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes Hanim {
+  0% {
+    opacity: 0%;
+  }
+  50%{
+    opacity: 50%;
+    
+    transform: skewX(45deg);
+  }
+  100% {
+    opacity: 100%;
+    color: #6823ad;
+     transform: scale(1);
+  }
+}
+#music{
+  font-size: 30px;
+  color: #e01304;
+  font-family: DM Serif Display;
+}
